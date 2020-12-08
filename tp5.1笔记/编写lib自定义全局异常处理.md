@@ -86,7 +86,7 @@ class ExceptionHandler extends Handle
    
    ```
 
-5. 在`lib\exception\`下创建php文件自定义错误标明  文件名为`自定义文件名+Exception`
+5. 在`lib\exception\`下创建php文件自定义错误标明  文件名为`自定义文件名+Exception` 并集成BaseException类
 
    ```php
    class CatogenException extends BaseException
